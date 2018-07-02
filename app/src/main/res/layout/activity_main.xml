@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="@color/primary_color"
     android:orientation="vertical"
-    tools:context="com.example.android.gwg_abnd18_home2mars_tour_guide_app.MainActivity">
+    tools:context=".MainActivity">
 
     <android.support.design.widget.TabLayout
         android:id="@+id/tabs"

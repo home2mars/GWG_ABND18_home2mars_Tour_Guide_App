@@ -32,24 +32,24 @@ public class MuseumsFragment extends Fragment {
 
         // Create a list of places
         final ArrayList<Place> places = new ArrayList<Place>();
-        places.add(new Place("National Museum of African American History and Culture",
-                "This sensational museum covers the diverse African American experience and how it helped shape the nation",
-                "http://www.nmaahc.si.edu/",
+        places.add(new Place(getString(R.string.mus_african_american_name),
+                getString(R.string.mus_african_american_tagline),
+                getString(R.string.mus_african_american_website),
                 R.drawable.mus_african_american));
         //10am-5:30pm
-        places.add(new Place("National Gallery of Art",
-                "Two buildings. Hundreds of masterpieces. Infinite enjoyment.",
-                "http://www.nga.gov/",
+        places.add(new Place(getString(R.string.mus_galery_art_name),
+                getString(R.string.mus_galery_art_tagline),
+                getString(R.string.mus_galery_art_website),
                 R.drawable.mus_galery_art));
         //10am-5pm Mon-Sat, 11am-6pm Sun
-        places.add(new Place("National Air and Space Museum",
-                "Children and adults alike love walking through the Skylab Orbital Workshop and viewing the 'Apollo to the Moon' exhibit upstairs",
-                "http://www.airandspace.si.edu/",
+        places.add(new Place(getString(R.string.mus_air_and_space_name),
+                getString(R.string.mus_air_and_space_tagline),
+                getString(R.string.mus_air_and_space_website),
                 R.drawable.mus_air_and_space));
         //10am-5:30pm
-        places.add(new Place("Lincoln Memorial",
-                "The words of his Gettysburg Address and Second Inaugural speech flank the huge marble statue",
-                "http://www.nps.gov/linc",
+        places.add(new Place(getString(R.string.mus_lincoln_memorial_name),
+                getString(R.string.mus_lincoln_memorial_tagline),
+                getString(R.string.mus_lincoln_memorial_website),
                 R.drawable.mus_lincoln_memorial));
         //24 hrs
 
@@ -67,7 +67,7 @@ public class MuseumsFragment extends Fragment {
         // {@link ListView} will display list items for each {@link Place} in the list.
         listView.setAdapter(adapter);
 
-        // Set a click listener to play the audio when the list item is clicked on
+        // Set a click listener to open a browser to open the website of the list item is clicked on
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {

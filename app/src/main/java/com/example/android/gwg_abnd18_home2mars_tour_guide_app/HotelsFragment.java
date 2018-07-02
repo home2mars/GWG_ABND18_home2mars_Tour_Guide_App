@@ -33,53 +33,53 @@ public class HotelsFragment extends Fragment {
 
         // Create a list of places
         final ArrayList<Place> places = new ArrayList<Place>();
-        places.add(new Place("Hay-Adams Hotel ($$$)",
-                "Top choice heritage hotel in White House Area & Foggy Bottom",
-                "http://www.hayadams.com/",
+        places.add(new Place(getString(R.string.hotel_luxury_hay_adams_name),
+                getString(R.string.hotel_luxury_hay_adams_tagline),
+                getString(R.string.hotel_luxury_hay_adams_website),
                 R.drawable.hotel_luxury_hay_adams));
-        places.add(new Place("Watergate Hotel ($$$)",
-                "Top choice design hotel in White House Area & Foggy Bottom",
-                "http://www.thewatergatehotel.com/",
+        places.add(new Place(getString(R.string.hotel_luxury_watergate_name),
+                getString(R.string.hotel_luxury_watergate_tagline),
+                getString(R.string.hotel_luxury_watergate_website),
                 R.drawable.hotel_luxury_watergate));
-        places.add(new Place("The Jefferson ($$$)",
-                "Top choice hotel in Dupont Circle & Kalorama",
-                "http://www.jeffersondc.com/",
+        places.add(new Place(getString(R.string.hotel_luxury_jefferson_name),
+                getString(R.string.hotel_luxury_jefferson_tagline),
+                getString(R.string.hotel_luxury_jefferson_website),
                 R.drawable.hotel_luxury_jefferson));
-        places.add(new Place("St Regis Washington ($$$)",
-                "Hotel in White House Area & Foggy Bottom",
-                "http://www.stregiswashingtondc.com/",
+        places.add(new Place(getString(R.string.hotel_luxury_st_regis_name),
+                getString(R.string.hotel_luxury_st_regis_tagline),
+                getString(R.string.hotel_luxury_st_regis_website),
                 R.drawable.hotel_luxury_st_regis));
-        places.add(new Place("Kimpton Carlyle ($$)",
-                "Hotel in Dupont Circle & Kalorama",
-                "http://www.carlylehoteldc.com/",
+        places.add(new Place(getString(R.string.hotel_medium_carlyle_name),
+                getString(R.string.hotel_medium_carlyle_tagline),
+                getString(R.string.hotel_medium_carlyle_website),
                 R.drawable.hotel_medium_carlyle));
-        places.add(new Place("Pod DC Hotel ($$)",
-                "Top choice design hotel in Downtown & Penn Quarter",
-                "http://www.thepodhotel.com/",
+        places.add(new Place(getString(R.string.hotel_medium_pod_dc_name),
+                getString(R.string.hotel_medium_pod_dc_tagline),
+                getString(R.string.hotel_medium_pod_dc_website),
                 R.drawable.hotel_medium_pod_dc));
-        places.add(new Place("Phoenix Park Hotel ($$)",
-                "Hotel in Capitol Hill & South DC",
-                "http://www.phoenixparkhotel.com/",
+        places.add(new Place(getString(R.string.hotel_medium_phoenix_park_name),
+                getString(R.string.hotel_medium_phoenix_park_tagline),
+                getString(R.string.hotel_medium_phoenix_park_website),
                 R.drawable.hotel_medium_phoenix_park));
-        places.add(new Place("Tabard Inn ($$)",
-                "Boutique hotel in Dupont Circle & Kalorama",
-                "http://www.tabardinn.com/",
+        places.add(new Place(getString(R.string.hotel_medium_tabard_inn_name),
+                getString(R.string.hotel_medium_tabard_inn_tagline),
+                getString(R.string.hotel_medium_tabard_inn_website),
                 R.drawable.hotel_medium_tabard_inn));
-        places.add(new Place("Hosteling International ($)",
-                "Top choice hostel in Downtown & Penn Quarter",
-                "http://www.hiwashingtondc.org/",
+        places.add(new Place(getString(R.string.hotel_budget_hostelling_international_name),
+                getString(R.string.hotel_budget_hostelling_international_tagline),
+                getString(R.string.hotel_budget_hostelling_international_website),
                 R.drawable.hotel_budget_hostelling_international));
-        places.add(new Place("Adam's Inn ($)",
-                "B&B in Adams Morgan",
-                "http://www.adamsinn.com/",
+        places.add(new Place(getString(R.string.hotel_budget_adam_inn_name),
+                getString(R.string.hotel_budget_adam_inn_tagline),
+                getString(R.string.hotel_budget_adam_inn_website),
                 R.drawable.hotel_budget_adam_inn));
-        places.add(new Place("Highroad Hostel ($)",
-                "Hostel in Adams Morgan",
-                "http://www.highroadhostels.com/",
+        places.add(new Place(getString(R.string.hotel_budget_highroad_hostel_name),
+                getString(R.string.hotel_budget_highroad_hostel_tagline),
+                getString(R.string.hotel_budget_highroad_hostel_website),
                 R.drawable.hotel_budget_highroad_hostel));
-        places.add(new Place("William Penn House ($)",
-                "Quaker-run guesthouse in Capitol Hill & South DC",
-                "http://www.williampennhouse.org/",
+        places.add(new Place(getString(R.string.hotel_budget_william_penn_house_name),
+                getString(R.string.hotel_budget_william_penn_house_tagline),
+                getString(R.string.hotel_budget_william_penn_house_website),
                 R.drawable.hotel_budget_william_penn_house));
 
         // Create an {@link PlaceAdapter}, whose data source is a list of {@link Place}s. The

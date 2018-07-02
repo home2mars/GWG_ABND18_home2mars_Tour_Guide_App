@@ -33,24 +33,24 @@ public class AttractionsFragment extends Fragment {
 
         // Create a list of places
         final ArrayList<Place> places = new ArrayList<Place>();
-        places.add(new Place("US Capitol",
-                "Lively arguments fly in the Capitol's Senate and House chambers",
-                "http://www.visitthecapitol.gov/",
+        places.add(new Place(getString(R.string.attr_us_capitol_name),
+                getString(R.string.attr_us_capitol_tagline),
+                getString(R.string.attr_us_capitol_website),
                 R.drawable.attr_us_capitol));
         //8:30am-4:30pm Mon-Sat
-        places.add(new Place("White House",
-                "The 'President's House', built in stages between 1792 and 1829, is an iconic, imposing building that's thrilling to see",
-                "http://www.whitehouse.gov/",
+        places.add(new Place(getString(R.string.attr_white_house_name),
+                getString(R.string.attr_white_house_tagline),
+                getString(R.string.attr_white_house_website),
                 R.drawable.attr_white_house));
         //tours 7:30-11:30am Tue-Thu, to 1:30pm Fri & Sat
-        places.add(new Place("United States National Arboretum",
-                "The greatest green space in Washington unfurls almost 450 acres of meadowland",
-                "http://www.usna.usda.gov/",
+        places.add(new Place(getString(R.string.attr_attr_arboretum_name),
+                getString(R.string.attr_attr_arboretum_tagline),
+                getString(R.string.attr_attr_arboretum_website),
                 R.drawable.attr_arboretum));
         //8am-5pm
-        places.add(new Place("Georgetown Waterfront Park",
-                "Offers visitors a place to enjoy river views in a lush green setting at the edge of a bustling historic urban neighborhood",
-                "https://georgetownwaterfrontpark.org/",
+        places.add(new Place(getString(R.string.attr_georgetown_waterfront_name),
+                getString(R.string.attr_georgetown_waterfront_tagline),
+                getString(R.string.attr_georgetown_waterfront_website),
                 R.drawable.attr_georgetown_waterfront));
         //24 hrs
 
@@ -61,14 +61,14 @@ public class AttractionsFragment extends Fragment {
 
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
         // There should be a {@link ListView} with the view ID called list, which is declared in the
-        // place_list.xmll layout file.
+        // place_list.xml layout file.
         ListView listView = (ListView) rootView.findViewById(R.id.list);
 
         // Make the {@link ListView} use the {@link PlaceAdapter} we created above, so that the
         // {@link ListView} will display list items for each {@link Place} in the list.
         listView.setAdapter(adapter);
 
-        // Set a click listener to play the audio when the list item is clicked on
+        // Set a click listener to open a browser to open the website of the list item is clicked on
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {

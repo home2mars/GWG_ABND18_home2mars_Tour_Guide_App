@@ -32,39 +32,39 @@ public class RestaurantsFragment extends Fragment {
 
         // Create a list of places
         final ArrayList<Place> places = new ArrayList<Place>();
-        places.add(new Place("Ben’s Chili Bowl",
-                "Top choice american in Logan Circle, U Street & Columbia Heights",
-                "http://www.benschilibowl.com/",
+        places.add(new Place(getString(R.string.rest_ben_chili_bowl_name),
+                getString(R.string.rest_ben_chili_bowl_tagline),
+                getString(R.string.rest_ben_chili_bowl_website),
                 R.drawable.rest_ben_chili_bowl));
         //6am-2am Mon-Thu, to 4am Fri, 7am-4am Sat, 11am-midnight Sun
         //mains $6-10
-        places.add(new Place("Dabney",
-                "Top choice american in Downtown & Penn Quarter",
-                "http://www.thedabney.com/",
+        places.add(new Place(getString(R.string.rest_thedabney_name),
+                getString(R.string.rest_thedabney_tagline),
+                getString(R.string.rest_thedabney_website),
                 R.drawable.rest_thedabney));
         //5:30-10pm Tue-Thu, to 11pm Fri & Sat, 5-10pm Sun
         //small plates $14-23
-        places.add(new Place("Comet Ping Pong",
-                "Top choice pizza in Upper Northwest DC",
-                "http://www.cometpingpong.com/",
+        places.add(new Place(getString(R.string.rest_comet_pingpong_name),
+                getString(R.string.rest_comet_pingpong_tagline),
+                getString(R.string.rest_comet_pingpong_website),
                 R.drawable.rest_comet_pingpong));
         //5-9:30pm Mon-Thu, 11:30am-10:45pm Fri & Sat, 11:30am-9:30pm Sun
         //pizzas $9-19
-        places.add(new Place("Busboys & Poets",
-                "Top choice cafe in Logan Circle, U Street & Columbia Heights",
-                "http://www.busboysandpoets.com/",
+        places.add(new Place(getString(R.string.rest_busboys_name),
+                getString(R.string.rest_busboys_tagline),
+                getString(R.string.rest_busboys_website),
                 R.drawable.rest_busboys));
         //7am-midnight Mon-Thu, to 2am Fri, from 8am Sat & Sun
         //mains $12-21
-        places.add(new Place("Bistrot du Coin",
-                "Top choice french in Dupont Circle & Kalorama",
-                "http://www.bistrotducoin.com/",
+        places.add(new Place(getString(R.string.rest_bistrotducoin_name),
+                getString(R.string.rest_bistrotducoin_tagline),
+                getString(R.string.rest_bistrotducoin_website),
                 R.drawable.rest_bistrotducoin));
         //11:30am-midnight Mon-Wed, 11:30am-1am Thu & Fri, noon-1am Sat, noon-midnight Sun
         //mains $20-30
-        places.add(new Place("Shouk",
-                "Top choice israeli in Downtown & Penn Quarter",
-                "http://www.shouk.com/",
+        places.add(new Place(getString(R.string.rest_shouk_name),
+                getString(R.string.rest_shouk_tagline),
+                getString(R.string.rest_shouk_website),
                 R.drawable.rest_shouk));
         //11am-10pm
         //mains $10
@@ -83,7 +83,7 @@ public class RestaurantsFragment extends Fragment {
         // {@link ListView} will display list items for each {@link Place} in the list.
         listView.setAdapter(adapter);
 
-        // Set a click listener to play the audio when the list item is clicked on
+        // Set a click listener to open a browser to open the website of the list item is clicked on
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {

@@ -25,11 +25,122 @@
     <!-- Category name for attractions [CHAR LIMIT=20] -->
     <string name="category_attractions">Attractions</string>
 
-    <!-- Category name for restaurants [CHAR LIMIT=20] -->
+    <!-- Category name for museums [CHAR LIMIT=20] -->
     <string name="category_museums">Museums</string>
 
 
     <string name="no_browser_app_message">Please install an internet browser application</string>
 
+
+    <!-- ATTRACTIONS -->
+    <string name="attr_us_capitol_name">US Capitol</string>
+    <string name="attr_us_capitol_tagline">Lively arguments fly in the Capitol\'s Senate and House chambers</string>
+    <string name="attr_us_capitol_website">http://www.visitthecapitol.gov/</string>
+
+    <string name="attr_white_house_name">White House</string>
+    <string name="attr_white_house_tagline">The \'President\'s House\', built in stages between 1792 and 1829, is an iconic, imposing building that\'s thrilling to see</string>
+    <string name="attr_white_house_website">http://www.whitehouse.gov/</string>
+
+    <string name="attr_attr_arboretum_name">United States National Arboretum</string>
+    <string name="attr_attr_arboretum_tagline">The greatest green space in Washington unfurls almost 450 acres of meadowland</string>
+    <string name="attr_attr_arboretum_website">http://www.usna.usda.gov/</string>
+
+    <string name="attr_georgetown_waterfront_name">Georgetown Waterfront Park</string>
+    <string name="attr_georgetown_waterfront_tagline">Offers visitors a place to enjoy river views in a lush green setting at the edge of a bustling historic urban neighborhood</string>
+    <string name="attr_georgetown_waterfront_website">https://georgetownwaterfrontpark.org/</string>
+
+
+    <!-- HOTELS -->
+    <string name="hotel_luxury_hay_adams_name">Hay-Adams Hotel ($$$)</string>
+    <string name="hotel_luxury_hay_adams_tagline">Top choice heritage hotel in White House Area &amp; Foggy Bottom</string>
+    <string name="hotel_luxury_hay_adams_website">http://www.hayadams.com/</string>
+
+    <string name="hotel_luxury_watergate_name">Watergate Hotel ($$$)</string>
+    <string name="hotel_luxury_watergate_tagline">Top choice design hotel in White House Area &amp; Foggy Bottom</string>
+    <string name="hotel_luxury_watergate_website">http://www.thewatergatehotel.com/</string>
+
+    <string name="hotel_luxury_jefferson_name">The Jefferson ($$$)</string>
+    <string name="hotel_luxury_jefferson_tagline">Top choice hotel in Dupont Circle &amp; Kalorama</string>
+    <string name="hotel_luxury_jefferson_website">http://www.jeffersondc.com/</string>
+
+    <string name="hotel_luxury_st_regis_name">St Regis Washington ($$$)</string>
+    <string name="hotel_luxury_st_regis_tagline">Hotel in White House Area &amp; Foggy Bottom</string>
+    <string name="hotel_luxury_st_regis_website">http://www.stregiswashingtondc.com/</string>
+
+    <string name="hotel_medium_carlyle_name">Kimpton Carlyle ($$)</string>
+    <string name="hotel_medium_carlyle_tagline">Hotel in Dupont Circle &amp; Kalorama</string>
+    <string name="hotel_medium_carlyle_website">http://www.carlylehoteldc.com/</string>
+
+    <string name="hotel_medium_pod_dc_name">Pod DC Hotel ($$)</string>
+    <string name="hotel_medium_pod_dc_tagline">Top choice design hotel in Downtown &amp; Penn Quarter</string>
+    <string name="hotel_medium_pod_dc_website">http://www.thepodhotel.com/</string>
+
+    <string name="hotel_medium_phoenix_park_name">Phoenix Park Hotel ($$)</string>
+    <string name="hotel_medium_phoenix_park_tagline">Hotel in Capitol Hill &amp; South DC</string>
+    <string name="hotel_medium_phoenix_park_website">http://www.phoenixparkhotel.com/</string>
+
+    <string name="hotel_medium_tabard_inn_name">Tabard Inn ($$)</string>
+    <string name="hotel_medium_tabard_inn_tagline">Boutique hotel in Dupont Circle &amp; Kalorama</string>
+    <string name="hotel_medium_tabard_inn_website">http://www.tabardinn.com/</string>
+
+    <string name="hotel_budget_hostelling_international_name">Hosteling International ($)</string>
+    <string name="hotel_budget_hostelling_international_tagline">Top choice hostel in Downtown &amp; Penn Quarter</string>
+    <string name="hotel_budget_hostelling_international_website">http://www.hiwashingtondc.org/</string>
+
+    <string name="hotel_budget_adam_inn_name">Adam\'s Inn ($)</string>
+    <string name="hotel_budget_adam_inn_tagline">B&amp;B in Adams Morgan</string>
+    <string name="hotel_budget_adam_inn_website">http://www.adamsinn.com/</string>
+
+    <string name="hotel_budget_highroad_hostel_name">Highroad Hostel ($)</string>
+    <string name="hotel_budget_highroad_hostel_tagline">Hostel in Adams Morgan</string>
+    <string name="hotel_budget_highroad_hostel_website">http://www.highroadhostels.com/</string>
+
+    <string name="hotel_budget_william_penn_house_name">William Penn House ($)</string>
+    <string name="hotel_budget_william_penn_house_tagline">Quaker-run guesthouse in Capitol Hill &amp; South DC</string>
+    <string name="hotel_budget_william_penn_house_website">http://www.williampennhouse.org/</string>
+
+
+    <!-- MUSEUMS -->
+    <string name="mus_african_american_name">National Museum of African American History and Culture</string>
+    <string name="mus_african_american_tagline">This sensational museum covers the diverse African American experience and how it helped shape the nation</string>
+    <string name="mus_african_american_website">http://www.nmaahc.si.edu/</string>
+
+    <string name="mus_galery_art_name">National Gallery of Art</string>
+    <string name="mus_galery_art_tagline">Two buildings. Hundreds of masterpieces. Infinite enjoyment.</string>
+    <string name="mus_galery_art_website">http://www.nga.gov/</string>
+
+    <string name="mus_air_and_space_name">National Air and Space Museum</string>
+    <string name="mus_air_and_space_tagline">Children and adults alike love walking through the Skylab Orbital Workshop and viewing the \'Apollo to the Moon\' exhibit upstairs</string>
+    <string name="mus_air_and_space_website">http://www.airandspace.si.edu/</string>
+
+    <string name="mus_lincoln_memorial_name">Lincoln Memorial</string>
+    <string name="mus_lincoln_memorial_tagline">The words of his Gettysburg Address and Second Inaugural speech flank the huge marble statue</string>
+    <string name="mus_lincoln_memorial_website">http://www.nps.gov/linc</string>
+
+
+    <!-- RESTAURANTS -->
+    <string name="rest_ben_chili_bowl_name">Ben\’s Chili Bowl</string>
+    <string name="rest_ben_chili_bowl_tagline">Top choice american in Logan Circle, U Street &amp; Columbia Heights</string>
+    <string name="rest_ben_chili_bowl_website">http://www.benschilibowl.com/</string>
+
+    <string name="rest_thedabney_name">Dabney</string>
+    <string name="rest_thedabney_tagline">Top choice american in Downtown &amp; Penn Quarter</string>
+    <string name="rest_thedabney_website">http://www.thedabney.com/</string>
+
+    <string name="rest_comet_pingpong_name">Comet Ping Pong</string>
+    <string name="rest_comet_pingpong_tagline">Top choice pizza in Upper Northwest DC</string>
+    <string name="rest_comet_pingpong_website">http://www.cometpingpong.com/</string>
+
+    <string name="rest_busboys_name">Busboys &amp; Poets</string>
+    <string name="rest_busboys_tagline">Top choice cafe in Logan Circle, U Street &amp; Columbia Heights</string>
+    <string name="rest_busboys_website">http://www.busboysandpoets.com/</string>
+
+    <string name="rest_bistrotducoin_name">Bistrot du Coin</string>
+    <string name="rest_bistrotducoin_tagline">Top choice french in Dupont Circle &amp; Kalorama</string>
+    <string name="rest_bistrotducoin_website">http://www.bistrotducoin.com/</string>
+
+    <string name="rest_shouk_name">Shouk</string>
+    <string name="rest_shouk_tagline">Top choice israeli in Downtown &amp; Penn Quarter</string>
+    <string name="rest_shouk_website">http://www.shouk.com/</string>
 
 </resources>
